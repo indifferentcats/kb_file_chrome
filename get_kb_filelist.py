@@ -25,14 +25,14 @@ else:
     logging.info("Reading CSV from stdin")
 
 # hints from https://stackoverflow.com/questions/47741235/how-to-read-bytes-object-from-csv
-def get_uri_content_stringio(uri, skip_first=True) -> Union[StringIO, None]:
+def get_uri_content_stringio(uri) -> Union[StringIO, None]:
     response = urllib.request.urlopen(uri)
     if response.status >= 400:
         logging.warning(f'Error retrieving URI {uri} for {kb}')
         return None
-    if skip_first:
-        description = response.fp.readline()
-    lines = [line.decode('utf-8') for line in response.readlines()]
+    lines = [line.decode('utf-8')
+             for line in response.readlines()
+             if line.decode('utf-8').find(',') > 0]
     return StringIO("".join(lines))
 
 
@@ -41,8 +41,7 @@ logging.info(f"Creating output CSV {output_file}")
 with open(output_file, 'w', newline='') as csvwriter:
     all_kb_files = csv.DictWriter(csvwriter,
                                   fieldnames=["kb",
-                                              "path",
-                                              "base_path"],
+                                              "path"],
                                   dialect='excel')
     all_kb_files.writeheader()
     for row in kb_csv:
@@ -59,8 +58,7 @@ with open(output_file, 'w', newline='') as csvwriter:
                 file_name = record.get('File name')
                 output_row = {
                     "kb": kb,
-                    "path": file_name,
-                    "base_path": Path(file_name).parts[-1]
+                    "path": file_name
                 }
                 all_kb_files.writerow(output_row)
 
