@@ -1,0 +1,101 @@
+ChromeSetup.exe used files updated by these KBs:
+  - KB5018411
+GoogleUpdate.exe used files updated by these KBs:
+  - KB5019964
+  - KB5022289
+  - KB5018411
+  - KB5020439
+  - KB5021654
+  - KB5022838
+  - KB5021235
+consent.exe used files updated by these KBs:
+  - KB5019964
+  - KB5022289
+  - KB5018411
+  - KB5020439
+  - KB5021654
+  - KB5022838
+  - KB5021235
+GoogleUpdateSetup.exe used files updated by these KBs:
+  - KB5018411
+MpCopyAccelerator.exe used files updated by these KBs:
+  - KB5019964
+  - KB5022289
+  - KB5018411
+  - KB5020439
+  - KB5021654
+  - KB5022838
+  - KB5021235
+mpcmdrun.exe used files updated by these KBs:
+  - KB5019964
+  - KB5022289
+  - KB5018411
+  - KB5020439
+  - KB5021654
+  - KB5022838
+  - KB5021235
+dllhost.exe used files updated by these KBs:
+  - KB5018411
+GoogleUpdateComRegisterShell64.exe used files updated by these KBs:
+  - KB5018411
+  - KB5019964
+backgroundTaskHost.exe used files updated by these KBs:
+  - KB5018411
+111.0.5563.65_chrome_installer.exe used files updated by these KBs:
+  - KB5018411
+setup.exe used files updated by these KBs:
+  - KB5019964
+  - KB5022289
+  - KB5018411
+  - KB5020439
+  - KB5021654
+  - KB5022838
+  - KB5021235
+DllHost.exe used files updated by these KBs:
+  - KB5018411
+GoogleCrashHandler.exe used files updated by these KBs:
+  - KB5019964
+  - KB5022289
+  - KB5018411
+  - KB5020439
+  - KB5021654
+  - KB5022838
+  - KB5021235
+GoogleCrashHandler64.exe used files updated by these KBs:
+  - KB5019964
+  - KB5022289
+  - KB5018411
+  - KB5020439
+  - KB5021654
+  - KB5022838
+  - KB5021235
+GoogleUpdateOnDemand.exe used files updated by these KBs:
+  - KB5018411
+StartMenuExperienceHost.exe used files updated by these KBs:
+  - KB5018411
+chrome.exe used files updated by these KBs:
+  - KB5019964
+  - KB5022289
+  - KB5018411
+  - KB5020439
+  - KB5021654
+  - KB5022838
+  - KB5021235
+elevation_service.exe used files updated by these KBs:
+  - KB5019964
+  - KB5022289
+  - KB5018411
+  - KB5020439
+  - KB5021654
+  - KB5022838
+  - KB5021235
+chrmstp.exe used files updated by these KBs:
+  - KB5019964
+  - KB5022289
+  - KB5018411
+  - KB5020439
+  - KB5021654
+  - KB5022838
+  - KB5021235
+SearchApp.exe used files updated by these KBs:
+  - KB5018411
